@@ -16,7 +16,7 @@ public class janken1 {
 		
 		//	コンピュータの手を乱数によって生成する　
 		computerChoise = new java.util.Random().nextInt(3) + 1;		// 乱数を生成し＋１をする　
-																	// 1-3の乱数を生成し、computerChoise 変数に代入する
+																	// 1-3の乱数を生成し、computerChoise 変数に代入する 
 		// 乱数によって生成された数字によって、メッセージを表示する
 		switch (computerChoise) {
 			case  1 ->{

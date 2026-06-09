@@ -12,7 +12,7 @@ public class janken1 {
 
 	public static void main(String[] args) {
 		int computerChoise;		// コンピュータの手
-		int yourChoise;			// あなたの選んだ手 
+		int yourChoise;			// あなたの選んだ手  
 		
 		//	コンピュータの手を乱数によって生成する　
 		computerChoise = new java.util.Random().nextInt(3) + 1;		// 乱数を生成し＋１をする　

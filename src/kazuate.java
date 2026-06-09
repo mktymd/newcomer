@@ -6,7 +6,7 @@ public class kazuate {
 		int yourNum;
 		int kaisu = 0;
 		
-		System.out.println("数あてゲームを開始します。");
+		System.out.println("数あてゲームを開始します。");  
 		targetNum = new java.util.Random().nextInt(100) + 1;
 		System.out.println("コンピュータは1-100までの数字を作成しました。さあ当ててみましょう！");
 		
